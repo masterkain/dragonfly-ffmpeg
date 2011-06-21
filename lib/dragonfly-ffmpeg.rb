@@ -5,6 +5,7 @@ module EnMasse
   end
 end
 
+require 'dragonfly'
 require 'dragonfly-ffmpeg/analyser'
 require 'dragonfly-ffmpeg/config'
 

@@ -1,8 +1,7 @@
 require 'rubygems'
 require 'bundler'
 require 'rspec'
-require 'dragonfly'
-# Bundler.setup(:default, :test)
+Bundler.setup(:default, :test)
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))

@@ -1,6 +1,9 @@
 *.gem
+*.DS_Store
 .bundle
 Gemfile.lock
 pkg/*
 .rvmrc
 spec/spec.log
+.rspec
+spec/tmp/*

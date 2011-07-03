@@ -110,6 +110,9 @@ module EnMasse
           inspect(:number, temp_object)
         end
 
+        def raw_output(temp_object)
+          inspect(:raw_output, temp_object)
+        end
 
         private
 
